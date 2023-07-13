@@ -1,0 +1,52 @@
+/* Globally Shared Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color: #474747;
+}
+.special-letter {
+    color: #FD6E0A;
+}
+
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 18px 35px
+}
+
+
+/* nav section starts */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+  
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    /* color: #474747; */
+}
+
+
+
+
+/* nav section end */
