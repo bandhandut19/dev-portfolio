@@ -45,6 +45,8 @@ body {
     background-image: url(../images/header_bg.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 100vh;
 }
 
 nav {
@@ -85,6 +87,7 @@ nav a {
 .banner {
     display: flex;
     padding: 30px 30px 0px 150px;
+    margin-top: 12px;
     align-items: center;
     justify-content: space-between;
 }
@@ -92,7 +95,6 @@ nav a {
 .banner-container {
     max-width: 500px;
 }
-
 .banner-img {
     width: 480px;
     height: 677px;
@@ -164,15 +166,13 @@ main {
 }
 
 .options {
-    width: 267px;
-    height: 377px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 .option-desc {
-    padding: 30px;
+    padding: 40px;
     font-size: 16px;
     font-weight: 400;
     color: #474747;
