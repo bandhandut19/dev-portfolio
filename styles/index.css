@@ -3,11 +3,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: white;
+    /* color: white; */
 }
-body{
-    background-color: #474747;
+
+body {
+    /* background-color: #474747; */
 }
+
 .special-letter {
     color: #FD6E0A;
 }
@@ -17,16 +19,43 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    padding: 18px 35px
+    padding: 18px 35px;
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-desc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
 }
 
 
 /* nav section starts */
 
+
+.header {
+    background-color: rgba(255, 248, 243, 1);
+    background-image: url(../images/header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
+
+}
+
+nav h1, ul {
     margin-top: 20px;
 }
 
@@ -36,17 +65,124 @@ nav>ul {
 }
 
 nav li {
-  
+
     list-style: none;
     margin-right: 50px;
 }
 
 nav a {
     text-decoration: none;
-    /* color: #474747; */
+    color: #474747;
 }
 
 
 
-
 /* nav section end */
+
+
+/* banner section starts */
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-container {
+    max-width: 500px;
+}
+
+.banner-img {
+    width: 480px;
+    height: 677px;
+}
+
+.greeting {
+    font-size: 45px;
+    color: #474747;
+}
+
+.title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-container>p {
+    margin-bottom: 20px;
+}
+
+.banner-container button {
+    margin-right: 20px;
+}
+
+/* banner section end */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section starts */
+
+.about-me {
+    padding: 130px;
+    margin: 130px 0%;
+    background-color: antiquewhite;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.section-desc {
+    margin-bottom: 60px;
+}
+
+/* What i do section starts here */
+.what-i-do {
+    margin-bottom: 130px;
+}
+
+.what-i-do-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 24px; */
+    text-align: left;
+}
+
+.option-name {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.options {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.option-desc {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    width: 150px;
+}
+
+.options img{
+    width: 44px;
+    height: 44px;
+    padding: 30px 0px 40px 30px;
+}
+
+/* What i do section ends here */
